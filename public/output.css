@@ -554,6 +554,26 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -572,6 +592,10 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -622,8 +646,56 @@ video {
   height: 30rem;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
+.h-\[26rem\] {
+  height: 26rem;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[50vw\] {
+  height: 50vw;
+}
+
+.h-\[70vw\] {
+  height: 70vw;
+}
+
+.h-\[80vw\] {
+  height: 80vw;
+}
+
+.h-\[85vw\] {
+  height: 85vw;
+}
+
+.h-\[75vw\] {
+  height: 75vw;
+}
+
+.h-\[75vh\] {
+  height: 75vh;
+}
+
 .min-h-96 {
   min-height: 24rem;
+}
+
+.min-h-80 {
+  min-height: 20rem;
+}
+
+.min-h-\[40vw\] {
+  min-height: 40vw;
+}
+
+.min-h-\[22rem\] {
+  min-height: 22rem;
 }
 
 .w-10 {
@@ -634,12 +706,32 @@ video {
   width: 24rem;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .bg-gray-900 {
@@ -663,6 +755,10 @@ video {
 
 .bg-\[url\(\'img\/background\.png\'\)\] {
   background-image: url('img/background.png');
+}
+
+.bg-\[url\(\'img\/ludee\.png\'\)\] {
+  background-image: url('img/ludee.png');
 }
 
 .bg-cover {
@@ -797,8 +893,64 @@ video {
   background-size: 100rem 120%;
 }
 
+.bg-\[length\:20rem_20rem\] {
+  background-size: 20rem 20rem;
+}
+
+.bg-\[length\:20rem\] {
+  background-size: 20rem;
+}
+
+.bg-\[length\:22rem\] {
+  background-size: 22rem;
+}
+
+.bg-\[length\:24rem\] {
+  background-size: 24rem;
+}
+
+.bg-\[length\:23rem\] {
+  background-size: 23rem;
+}
+
+.bg-\[length\:10\%\] {
+  background-size: 10%;
+}
+
+.bg-\[length\:50\%\] {
+  background-size: 50%;
+}
+
+.bg-\[length\:70\%\] {
+  background-size: 70%;
+}
+
+.bg-\[length\:60\%\] {
+  background-size: 60%;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-\[center_top\] {
+  background-position: center top;
+}
+
+.bg-\[bottom\] {
+  background-position: bottom;
+}
+
+.bg-\[center_bottom\] {
+  background-position: center bottom;
+}
+
+.bg-\[50\%\] {
+  background-position: 50%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .bg-repeat-y {
@@ -858,6 +1010,10 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.pt-\[4\.5rem\] {
+  padding-top: 4.5rem;
 }
 
 .text-center {
