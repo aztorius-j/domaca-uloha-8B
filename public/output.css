@@ -562,12 +562,85 @@ video {
   bottom: 1.75rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.box-content {
+  box-sizing: content-box;
 }
 
 .flex {
@@ -602,8 +675,40 @@ video {
   width: 75%;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
+.max-w-\[420px\] {
+  max-width: 420px;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -612,6 +717,18 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .bg-cyan-500 {
@@ -627,6 +744,51 @@ video {
 .bg-graymenu {
   --tw-bg-opacity: 1;
   background-color: rgb(39 48 55 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-stone-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+}
+
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'img\/background\.png\'\)\] {
@@ -653,6 +815,14 @@ video {
   background-repeat: no-repeat;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -668,8 +838,25 @@ video {
   padding-right: 2.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pt-\[4\.5rem\] {
   padding-top: 4.5rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-center {
@@ -678,6 +865,10 @@ video {
 
 .font-Merriweather {
   font-family: Merriweather Sans;
+}
+
+.font-RobotoSlab {
+  font-family: Roboto Slab;
 }
 
 .text-4xl {
@@ -698,6 +889,18 @@ video {
   font-weight: 800;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .leading-7 {
   line-height: 1.75rem;
 }
@@ -706,8 +909,28 @@ video {
   line-height: 4;
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-gray-800 {
@@ -723,6 +946,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .word-spacing-wide {

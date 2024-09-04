@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         Merriweather: ["Merriweather Sans"],
+        RobotoSlab: ["Roboto Slab"],
       },
       spacing: {
         'wide': '0.25rem',
