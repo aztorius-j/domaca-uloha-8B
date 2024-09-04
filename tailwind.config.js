@@ -5,7 +5,14 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        graymenu: '#273037',
+      },
+      fontFamily: {
+        Merriweather: ["Merriweather Sans"],
+      }
+    },
   },
   plugins: [],
 }
