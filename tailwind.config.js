@@ -11,9 +11,30 @@ module.exports = {
       },
       fontFamily: {
         Merriweather: ["Merriweather Sans"],
+      },
+      spacing: {
+        'wide': '0.25rem',
+        'wider': '0.5rem',
+        'widest': '1rem',
+      },
+      screens: {
+        'xxs': '200px',
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.word-spacing-wide': {
+          wordSpacing: '0.25rem',
+        },
+        '.word-spacing-wider': {
+          wordSpacing: '0.5rem',
+        },
+        '.word-spacing-widest': {
+          wordSpacing: '1rem',
+        },
+      })
+    }
+  ],
 }
-
