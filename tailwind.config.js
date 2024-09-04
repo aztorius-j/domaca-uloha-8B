@@ -18,9 +18,6 @@ module.exports = {
         'wider': '0.5rem',
         'widest': '1rem',
       },
-      screens: {
-        'xxs': '200px',
-      },
       keyframes: {
         shake: {
           '0%, 100%': { transform: 'translateX(0)' },
