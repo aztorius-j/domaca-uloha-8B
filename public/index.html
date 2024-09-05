@@ -12,9 +12,9 @@
 
 <body class="min-w-52">
 
-    <header class="bg-gray-900 h-[4.5rem]">
+    <header class="bg-gray-900 h-[4.5rem] md:h-16">
 
-        <div class="h-full flex items-center justify-between">         
+        <div class="h-full flex items-center justify-between md:hidden">         
 
             <a href="#">
                 <img class="w-10 h-10 ml-3" src="img/logo.png" alt="logo">
@@ -25,6 +25,37 @@
             </a>
 
         </div>
+
+        <nav class="hidden md:flex justify-center h-full">
+
+            <ul class="text-white text-xs font-[900] flex items-center gap-x-4">
+
+                <li>
+                    <a href="#">
+                        <img class="w-10 h-10 ml-3" src="img/logo.png" alt="logo">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+
+                <li>
+                    <a href="#">CONSULTING</a>
+                </li>
+
+                <li>
+                    <a href="#">SKYLIGHT</a>
+                </li>
+
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+
+
+            </ul>
+
+        </nav>
 
     </header>
 
@@ -37,13 +68,13 @@
 
             <div class="bg-cyan-500 bg-[url('img/background.png')] bg-cover bg-center relative">
 
-                <div class="text-center pt-[4.5rem] px-5">
+                <div class="text-center pt-[4.5rem] px-5 md:pt-16">
 
-                    <h1 class="text-gray-800 font-[900] tracking-tighter mb-5 sm:text-xl">
+                    <h1 class="text-gray-800 font-[900] tracking-tighter mb-5 sm:text-xl sm:mb-4 md:text-2xl md: word-spacing-wide">
                         HI. WE'RE TILDE.
                     </h1>
 
-                    <h2 class="text-white text-4xl font-[900] tracking-tighter leading-7 word-spacing-wide sm:text-7xl sm:leading-[3.5rem]">
+                    <h2 class="text-white text-4xl font-[900] tracking-tighter leading-7 word-spacing-wide sm:text-7xl sm:leading-[3.5rem] md:text-8xl md:leading-[4.5rem]">
                         WE LIVE AND BREATHE CODE.
                     </h2>
 
@@ -51,7 +82,7 @@
 
                 <div class="flex justify-center">
 
-                    <img src="img/ludee.png" alt="ludzee mojo" class="w-3/4 h-auto sm:w-8/12">
+                    <img src="img/ludee.png" alt="ludzee mojo" class="w-3/4 h-auto sm:w-[26rem]">
 
                 </div>
 
@@ -131,7 +162,7 @@
 
             <header>
 
-                <div class="flex justify-center mt-10">
+                <div class="flex justify-center mt-10 md:mt-14">
 
                     <h3 class="relative z-20 font-Merriweather text-white bg-gray-900 font-[900] p-2 leading-5 word-spacing-wide text-sm">WHAT WE DO</h3>
 
@@ -145,11 +176,11 @@
 
             </header>
 
-            <article class="mt-14 grid gap-20">
+            <article class="mt-14 grid gap-20 md:grid-cols-3 md:gap-4 md:px-12">
 
                 <!-- EMBER.JS & PRODUCT CONSULTING  -->
 
-                <div class="flex flex-col items-center px-6">
+                <div class="flex flex-col items-center px-6 md:px-0">
 
                     <img src="img/consulting-illustration.png" alt="consulting">
 
@@ -157,7 +188,7 @@
                         Ember.js & Product Consulting
                     </h4>
 
-                    <p class="text-center font-RobotoSlab font-light text-[1.06rem]">
+                    <p class="text-center font-RobotoSlab font-light text-[1.06rem] md:leading-snug">
                         We can handle the most challenging technical problems, and we've also got architecture, product and marketing chops.
                     </p>
 
@@ -169,7 +200,7 @@
 
                 <!-- SKYLIGHT: FOR APP PERFORMANCE GAINS  -->
 
-                <div class="flex flex-col items-center px-6">
+                <div class="flex flex-col items-center px-6 md:px-0">
 
                     <img src="img/engagements-illustration.png" alt="engagement">
 
@@ -177,7 +208,7 @@
                         Skylight: For App Performance Gains
                     </h4>
 
-                    <p class="text-center font-RobotoSlab font-light text-[1.06rem]">
+                    <p class="text-center font-RobotoSlab font-light text-[1.06rem] md:leading-snug">
                         Skylight is our smart profiler for Ruby and Rails applications. It turns performance data into actionable insights.
                     </p>
 
@@ -189,7 +220,7 @@
 
                 <!-- OPEN SOURCE DEVELOPMENT  -->
 
-                <div class="flex flex-col items-center px-6">
+                <div class="flex flex-col items-center px-6 md:px-0">
 
                     <img src="img/open-source-illustration.png" alt="engagement">
 
@@ -197,7 +228,7 @@
                         Open Source<br>Development
                     </h4>
 
-                    <p class="text-center font-RobotoSlab font-light text-[1.06rem]">
+                    <p class="text-center font-RobotoSlab font-light text-[1.06rem] md:leading-snug">
                         We’ve created and made contributions to some of the most notable and successful open-source projects in the world.
                     </p>
 
@@ -209,7 +240,7 @@
 
             </article>
 
-            <footer class="mt-24">
+            <footer class="mt-24 md:mt-44">
 
                 <div class="px-4">
 
@@ -219,7 +250,7 @@
 
                 <div class="flex flex-col justify-center py-[4.5rem]">
 
-                    <h5 class="uppercase text-center text-gray-900 text-3xl font-[900] font-Merriweather tracking-wide word-spacing-wide mb-5">
+                    <h5 class="uppercase text-center text-gray-900 text-3xl font-[900] font-Merriweather tracking-wide word-spacing-wide mb-5 md:text-[2.5rem] md:mb-7">
                         Have a Project in Mind?
                     </h5>
 
