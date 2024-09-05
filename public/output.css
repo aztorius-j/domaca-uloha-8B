@@ -734,6 +734,10 @@ video {
   flex-wrap: wrap;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1228,6 +1232,10 @@ video {
     align-items: center;
   }
 
+  .md\:items-stretch {
+    align-items: stretch;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
@@ -1296,6 +1304,26 @@ video {
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .md\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .md\:px-\[9\.5rem\] {
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
   }
 
   .md\:pt-8 {
