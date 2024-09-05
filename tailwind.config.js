@@ -13,6 +13,9 @@ module.exports = {
         Merriweather: ["Merriweather Sans"],
         RobotoSlab: ["Roboto Slab"],
       },
+      screens: {
+        'sm': '600px',
+      },
       spacing: {
         'wide': '0.25rem',
         'wider': '0.5rem',

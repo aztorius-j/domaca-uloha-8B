@@ -1027,3 +1027,86 @@ video {
   animation: shake 0.5s ease-in-out;
 }
 
+@media (min-width: 600px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
+  .sm\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .sm\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .sm\:leading-5 {
+    line-height: 1.25rem;
+  }
+
+  .sm\:leading-6 {
+    line-height: 1.5rem;
+  }
+
+  .sm\:leading-7 {
+    line-height: 1.75rem;
+  }
+
+  .sm\:leading-8 {
+    line-height: 2rem;
+  }
+
+  .sm\:leading-9 {
+    line-height: 2.25rem;
+  }
+
+  .sm\:leading-10 {
+    line-height: 2.5rem;
+  }
+
+  .sm\:leading-none {
+    line-height: 1;
+  }
+
+  .sm\:leading-\[3rem\] {
+    line-height: 3rem;
+  }
+
+  .sm\:leading-\[4rem\] {
+    line-height: 4rem;
+  }
+
+  .sm\:leading-\[3\.5rem\] {
+    line-height: 3.5rem;
+  }
+}
+
