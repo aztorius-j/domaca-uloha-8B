@@ -1062,6 +1062,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-cyan-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+
+.hover\:text-cyan-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity));
+}
+
 @media (min-width: 600px) {
   .sm\:mb-4 {
     margin-bottom: 1rem;
@@ -1069,6 +1079,10 @@ video {
 
   .sm\:w-\[26rem\] {
     width: 26rem;
+  }
+
+  .sm\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .sm\:text-7xl {
@@ -1172,6 +1186,10 @@ video {
 
   .md\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .md\:text-8xl {
